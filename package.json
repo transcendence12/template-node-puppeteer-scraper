@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "server": "ts-node ./src/server.ts",
+    "scrap": "ts-node ./src/scripts/runScrapper.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.7",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "node-schedule": "^2.1.1",
+    "puppeteer": "^24.1.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
